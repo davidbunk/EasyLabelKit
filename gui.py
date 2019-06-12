@@ -240,7 +240,7 @@ class Ui_MainWindow(object):
         self.actionRemove_class.setText(_translate("MainWindow", "Remove class"))
         self.actionSwitch_outlines_on_off.setText(_translate("MainWindow", "Switch outlines on/off"))
 
-from vision import MplCanvas, Treeview
+from elk import MplCanvas, Treeview
 
 if __name__ == "__main__":
     import sys
